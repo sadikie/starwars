@@ -1,7 +1,10 @@
-<ul >
-   <li ng-repeat="warrior in warriors">
-       <p>name:{{warrior.name}} DOB:{{warrior.birth_year}}</p>
-       <p>Gender: {{warrior.gender}} </p>
-       <p>Height: {{warrior.height}}</p>
-   </li> 
+<ul>
+    <li ng-repeat="warrior in warriors">
+        <p>
+            <strong>name:</strong> {{warrior.name}} and
+            <strong>DOB:</strong> {{warrior.birth_year}}
+        </p>
+        <p><strong>Gender:</strong> {{warrior.gender}} </p>
+        <p><strong>Height:</strong> {{warrior.height}} </p>
+    </li>
 </ul>

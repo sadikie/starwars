@@ -1,0 +1,1 @@
+appModule.factory('warrior', function{}
